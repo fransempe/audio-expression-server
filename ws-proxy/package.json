@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "node --loader ts-node/esm server.ts",
+    "build": "tsc",
     "start": "node server.js"
   },
   "dependencies": {
